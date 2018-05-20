@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+/*For desktop view */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*End of desktop view*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color:#0d5472;
+}
+.logo1{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 55%;
+}
+.logo-caption{
+   
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #90D5F2;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: segoe UI;
+}
+.whatsapp-contact{
+    width: 20px;
+    height: 20px;
+    border-radius: 55%;
+}
+.Location {
+    text-align: center;
+    color: #90D5F2;
+}
+.Phone{
+    text-align: center;
+    color:#90D5F2;
+}
+.E-mail{
+    text-align: center;
+    color:#90D5F2;
+}
+.Contact{
+    text-align: center;
+    color: #90D5F2;
+}
+.Contact > a {
+    color: #90D5F2;
+    text-decoration: none;
+}
+
+.Contact > a:hover {
+    color: #05222e;
+    text-decoration: none;
+}
+.intro-section-row{
+    background-color:  #8cd4f2;
+    border: 1px solid grey;
+    box-shadow: 1px 1px grey;
+    
+}
+ .inth{
+    text-align: center;
+    color:#0d5472;
+    font-size: 30px;
+    
+}
+.intp{
+    text-align: center;
+    color: #0d5472;;
+    font-size: 20px;   
+}
+.expert-skill > .col-6 > h2, p{
+    text-align: center;
+  
+}
+.expert-skill > .col-6 > h2{
+    text-align: center;
+    color: #0d5472;
+}
+.expert-skill{
+    background-color: #8cd4f2;
+}
+.footer-name1, .footer-name2{
+    text-align: center;
+    color:  #083245;
+}
+footer{
+    background-color:  #e8f6fc;
+}
+.foot{
+    color: #083245;
+}
